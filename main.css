@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 19rem;
+    padding-top: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#searchResults {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchTerm {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background-color: #0056b3;
+}
+#registrationForm{
+    margin-left: 4em;
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    border-radius: 1%;
+    width: 40em;
+    padding: 8px;
+    margin-bottom: 10px;
+    border:1px solid gray;
+}
+
+select{
+    width: 41.5em;
+    padding : 8px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+#searchResults div {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.userDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 5px; /* Adjust the gap between columns */
+}
+
+.column {
+    padding: 5px;
+}
+  
+#profile {
+    flex: 0 0 auto; /* Don't allow flex-grow, don't allow shrinking, keep original size */
+    margin-right: 20px; /* Adjust spacing between profile and data */
+}
+#profile img {
+    max-width: 100px; /* Set maximum width */
+    max-height: 100px; /* Set maximum height */
+}
+
+#data {
+    flex: 1; 
+    text-align: justify;
+}
+.invalid {
+    border: 1px solid red ;
+}
+
+.valid {
+    border: 1px solid green;
+}
+#PreviewPic{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+}
+.eye:active{
+    background-color: black;
+}
+
+#input-control {
+    position: relative;
+}
+#eye {
+    position: absolute;
+    right: 3.6em; /* Adjust this value as needed */
+    cursor: pointer;
+    background-color: transparent;
+    color :black;
+}
